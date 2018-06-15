@@ -23,11 +23,11 @@ addons:
       - antiword
 
 python:
-  - "2.7"
+  - "3.5"
 env:
   global:
   - LINT_CHECK="0" TESTS="0"
-  - VERSION="10.0" ODOO_REPO="vauxoo/odoo"
+  - VERSION="11.0" ODOO_REPO="vauxoo/odoo"
   - INCLUDE="asdcust"
   matrix:
   - LINT_CHECK="1"
